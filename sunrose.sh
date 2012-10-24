@@ -4,7 +4,7 @@
 
 modules="${modules:-sunrose.d}"
 
-usage() { echo "[module=/path/to/sunrose.d] $0 light||dark"; }
+usage() { echo "[modules=/path/to/sunrose.d] $0 light||dark"; }
 
 [ "$1" ] || { usage && exit 1; }
 
