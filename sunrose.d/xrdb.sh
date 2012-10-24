@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 
 light="${light:-${XDG_LOCAL_HOME:-$HOME/.local/share}/themes/xrdb/solarized-light}"
 dark="${dark:-${XDG_LOCAL_HOME:-$HOME/.local/share}/themes/xrdb/solarized-dark}"

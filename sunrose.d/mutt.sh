@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 
 light="${light:-${XDG_CONFIG:-$HOME/.config}/mutt/colour/solarized/mutt-colors-solarized-light-16.muttrc}"
 dark="${dark:-${XDG_CONFIG:-$HOME/.config}/mutt/colour/solarized/mutt-colors-solarized-dark-16.muttrc}"
