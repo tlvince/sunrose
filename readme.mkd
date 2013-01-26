@@ -20,7 +20,7 @@ A generic theme switcher.
 
 ## Tips
 
-Don't want to use a module? Simply rename its config file.
+Don't want to use a module? Simply rename/delete its config file.
 
 ## Authors
 
