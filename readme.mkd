@@ -2,6 +2,22 @@
 
 A generic theme switcher.
 
+## Uses
+
+1. Switch between light/dark themes system-wide based on sunrise/sunset times:
+
+    1. Install [Sunwait][] ([AUR][])
+    2. Add the following to your `crontab`, replacing the coordinates with your
+       own:
+
+    ```crontab
+    01 00 * * * sunwait sun start 38.794433N, 77.069450W; sunrose light
+    01 12 * * * sunwait sun start 38.794433N, 77.069450W; sunrose dark
+    ```
+
+  [sunwait]: http://www.risacher.org/sunwait/
+  [aur]: https://aur.archlinux.org/packages/sunwait/
+
 ## Tips
 
 Don't want to use a module? Simply rename its config file.
