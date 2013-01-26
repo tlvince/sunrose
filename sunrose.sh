@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 # sunrose: generic theme switcher.
 # Copyright 2012 Tom Vincent <http://tlvince.com/contact>
 
