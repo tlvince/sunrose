@@ -1,13 +1,8 @@
 #!/bin/sh
 
-light="${light:-${XDG_CONFIG:-$HOME/.config}/mutt/colour/solarized/mutt-colors-solarized-light-16.muttrc}"
-dark="${dark:-${XDG_CONFIG:-$HOME/.config}/mutt/colour/solarized/mutt-colors-solarized-dark-16.muttrc}"
+config="${XDG_CONFIG_HOME:-$HOME/.config}/sunrose/mutt"
+[ -f "$config" ] && source "$config" || exit 1
 
-muttrc="${muttrc:-${XDG_CONFIG:-$HOME/.config}/mutt/muttrc}"
-
-switch() {
-  sed -i "$1" "$muttrc"
-}
-
+switch() { sed -i "$1" "$muttrc"; }
 light() { switch "s|$dark|$light|"; }
 dark()  { switch "s|$light|$dark|"; }

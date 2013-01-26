@@ -1,0 +1,5 @@
+#!/bin/sh
+
+gtkrc="$HOME/.gtkrc-2.0"
+light="SolarizedLight"
+dark="SolarizedDark"

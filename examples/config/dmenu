@@ -1,0 +1,7 @@
+#!/bin/sh
+
+dmenu="${XDG_CONFIG_HOME:-$HOME/.config}/dmenu"
+
+dmenurc="$dmenu/dmenu.conf"
+light="$dmenu/colour/solarized-light"
+dark="$dmenu/colour/solarized-dark"

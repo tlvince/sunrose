@@ -1,0 +1,7 @@
+#!/bin/sh
+
+dwb="${XDG_CONFIG_HOME:-$HOME/.config}/dwb"
+
+userstyle="$dwb/default/userstyle.css"
+light="${XDG_CONFIG_HOME:-$HOME/.config}/dwb/colour/solarized-light.css"
+dark="${XDG_CONFIG_HOME:-$HOME/.config}/dwb/colour/solarized-dark.css"

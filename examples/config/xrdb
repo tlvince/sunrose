@@ -1,0 +1,6 @@
+#!/bin/sh
+
+xresources="${XDG_CONFIG_HOME:-$HOME/.config}/xorg/xresources"
+
+light="${XDG_LOCAL_HOME:-$HOME/.local/share}/themes/xrdb/solarized-light"
+dark="${XDG_LOCAL_HOME:-$HOME/.local/share}/themes/xrdb/solarized-dark"

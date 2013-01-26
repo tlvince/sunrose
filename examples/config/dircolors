@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dircolors="${XDG_CONFIG_HOME:-$HOME/.config}/dircolors"
+light="$dircolors/solarized/dircolors.ansi-light"
+dark="$dircolors/solarized/dircolors.ansi-dark"

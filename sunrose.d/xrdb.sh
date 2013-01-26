@@ -1,8 +1,7 @@
 #!/bin/sh
 
-light="${light:-${XDG_LOCAL_HOME:-$HOME/.local/share}/themes/xrdb/solarized-light}"
-dark="${dark:-${XDG_LOCAL_HOME:-$HOME/.local/share}/themes/xrdb/solarized-dark}"
-xresources="${xresources:-${XDG_CONFIG_HOME:-$HOME/.config}/xorg/xresources}"
+config="${XDG_CONFIG_HOME:-$HOME/.config}/sunrose/xrdb"
+[ -f "$config" ] && source "$config" || exit 1
 
 switch() {
   sed -i "$1" "$xresources"

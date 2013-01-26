@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mutt="${XDG_CONFIG_HOME:-$HOME/.config}/mutt"
+
+muttrc="$mutt/muttrc"
+light="$mutt/colour/solarized/mutt-colors-solarized-light-16.muttrc"
+dark="$mutt/colour/solarized/mutt-colors-solarized-dark-16.muttrc"
+
