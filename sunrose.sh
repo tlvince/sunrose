@@ -2,7 +2,7 @@
 # sunrose: generic theme switcher.
 # Copyright 2012 Tom Vincent <http://tlvince.com/contact>
 
-modules="${modules:-sunrose.d}"
+modules="${modules:-/etc/sunrose.d}"
 
 usage() { echo "[modules=/path/to/sunrose.d] $0 light||dark"; }
 
