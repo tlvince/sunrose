@@ -10,7 +10,7 @@ A generic theme switcher.
     2. Add the following to your `crontab`, replacing the coordinates with your
        own:
 
-    ```crontab
+    ```bash
     01 00 * * * sunwait sun start 38.794433N, 77.069450W; sunrose light
     01 12 * * * sunwait sun end 38.794433N, 77.069450W; sunrose dark
     ```
