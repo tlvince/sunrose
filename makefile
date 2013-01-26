@@ -11,13 +11,13 @@ install:
 	install -d "$(INSTALLDIR)/share/doc/sunrose/examples/config"
 	install -Dm644 examples/config/* "$(INSTALLDIR)/share/doc/sunrose/examples/config"
 
-	install -d "$(INSTALLDIR)/etc/sunrose.d"
-	install -Dm755 sunrose.d/* "$(INSTALLDIR)/etc/sunrose.d"
+	install -d "$(DESTDIR)/etc/sunrose.d"
+	install -Dm755 sunrose.d/* "$(DESTDIR)/etc/sunrose.d"
 
 uninstall:
 	rm "$(INSTALLDIR)/bin/sunrose"
 	rm -rf "$(INSTALLDIR)/share/doc/sunrose"
 	rm -rf "$(INSTALLDIR)/share/licenses/sunrose"
-	rm -rf "$(INSTALLDIR)/etc/sunrose.d"
+	rm -rf "$(DESTDIR)/etc/sunrose.d"
 
 .PHONY: all install uninstall
