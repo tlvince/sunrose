@@ -2,6 +2,10 @@
 
 A generic theme switcher.
 
+## Tips
+
+Don't want to use a module? Simply rename its config file.
+
 ## Authors
 
 Copyright 2012-2013 Tom Vincent <http://tlvince.com/contact>
