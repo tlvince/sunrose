@@ -15,8 +15,16 @@ A generic theme switcher.
     01 12 * * * sunwait sun end 38.794433N, 77.069450W; sunrose dark
     ```
 
+    3. Optionally grab [is-sunrise][] and call it from your `xinitrc` so that
+       the correct theme is chosen when you first launch X:
+
+    ```bash
+    is-sunrise 38.794433N 77.069450W && sunrose light || sunrose dark
+    ```
+
   [sunwait]: http://www.risacher.org/sunwait/
   [aur]: https://aur.archlinux.org/packages/sunwait/
+  [is-sunrise]: https://github.com/tlvince/scripts-shell/blob/master/is-sunrise.bash
 
 ## Tips
 
