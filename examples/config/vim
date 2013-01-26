@@ -1,0 +1,3 @@
+#!/bin/sh
+
+vimrc="${XDG_CONFIG_HOME:-$HOME/.config}/vimrc"
