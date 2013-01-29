@@ -11,8 +11,8 @@ A generic theme switcher.
        own:
 
     ```bash
-    01 00 * * * sunwait sun start 38.794433N, 77.069450W; sunrose light
-    01 12 * * * sunwait sun end 38.794433N, 77.069450W; sunrose dark
+    01 00 * * * sunwait sun start 38.794433N, 77.069450W; export DISPLAY=:0.0; sunrose light
+    01 12 * * * sunwait sun end 38.794433N, 77.069450W; export DISPLAY=:0.0; sunrose dark
     ```
 
     3. Optionally grab [is-sunrise][] and call it from your `xinitrc` so that
